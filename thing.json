@@ -1,0 +1,42 @@
+{
+  "packages": [
+    {
+      "name": "firefly",
+      "maintainer": "Firefly Racing",
+      "websiteURL": "https://github.com/Firefly-Racing",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "attiny",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "attiny",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/egkoppel/Firefly-Boards/archive/refs/heads/main.zip",
+          "archiveFileName": "main.zip",
+          "boards": [
+            {"name": "Firefly CAN 32u4"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}

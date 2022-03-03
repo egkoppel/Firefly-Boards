@@ -1,0 +1,36 @@
+ffcan.name=Firefly CAN 32u4
+ffcan.vid.0=0x2341
+ffcan.pid.0=0x0036
+ffcan.vid.1=0x2341
+ffcan.pid.1=0x8036
+ffcan.vid.2=0x2A03
+ffcan.pid.2=0x0036
+ffcan.vid.3=0x2A03
+ffcan.pid.3=0x8036
+
+ffcan.upload.tool=avrdude
+ffcan.upload.protocol=avr109
+ffcan.upload.maximum_size=28672
+ffcan.upload.maximum_data_size=2560
+ffcan.upload.speed=57600
+ffcan.upload.disable_flushing=true
+ffcan.upload.use_1200bps_touch=true
+ffcan.upload.wait_for_upload_port=true
+
+ffcan.bootloader.tool=avrdude
+ffcan.bootloader.low_fuses=0xff
+ffcan.bootloader.high_fuses=0xd8
+ffcan.bootloader.extended_fuses=0xcb
+ffcan.bootloader.file=caterina/Caterina-Leonardo.hex
+ffcan.bootloader.unlock_bits=0x3F
+ffcan.bootloader.lock_bits=0x2F
+
+ffcan.build.mcu=atmega32u4
+ffcan.build.f_cpu=16000000L
+ffcan.build.vid=0x2341
+ffcan.build.pid=0x8036
+ffcan.build.usb_product="Arduino Leonardo"
+ffcan.build.board=AVR_LEONARDO
+ffcan.build.core=arduino
+ffcan.build.variant=leonardo
+ffcan.build.extra_flags={build.usb_flags}
