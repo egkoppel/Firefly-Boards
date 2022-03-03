@@ -10,10 +10,10 @@
       },
       "platforms": [
         {
-          "name": "attiny",
+          "name": "firefly",
           "architecture": "avr",
           "version": "1.0.0",
-          "category": "attiny",
+          "category": "firefly",
           "help": {
             "online": ""
           },
