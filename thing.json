@@ -17,8 +17,8 @@
           "help": {
             "online": ""
           },
-          "url": "https://github.com/egkoppel/Firefly-Boards/archive/refs/heads/main.zip",
-          "archiveFileName": "main.zip",
+          "url": "https://github.com/egkoppel/Firefly-Boards/archive/refs/heads/master.zip",
+          "archiveFileName": "master.zip",
           "boards": [
             {"name": "Firefly CAN 32u4"}
           ],
